@@ -17,12 +17,6 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-@media (max-width: 767px) {
-    body{ 
-        padding: 0;
-    }
-}
-
 h1,
 h2,
 h3,
@@ -299,14 +293,3 @@ p {
 }
 /* Large devices (large desktops, 1200px and up) */
 /* Ex-Large devices (large desktops, 1200px and up) */
-
-/* 
-used for profile image
-*/
-.profile-img {
-  max-width: 100px;
-  margin-bottom: 15px;
-  border: 0px solid #fff;
-  border-radius: 100%;
-  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
-}
