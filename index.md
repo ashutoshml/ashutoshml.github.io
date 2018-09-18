@@ -2,122 +2,40 @@
 layout: default
 ---
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+## Education
+<hr/>
+**PhD Candidate**, Machine and Language Learning Lab ([MALL Lab](http://malllabiisc.github.io/)), 2016 -- Present <br>
+Dept. of Computer Science & Automation ([CSA](https://www.csa.iisc.ac.in/)), Indian Institute of Science, Bangalore
 
-[Link to another page](./another-page.html).
+**Masters in Computer Science**, 2014 -- 2016 <br>
+Chennai Mathematical Institute, Chennai
 
-There should be whitespace between paragraphs.
+**B.Tech**, 2008 -- 2012 <br>
+Dept. of Mechanical Engineering, [Indian Institute of Technology, Kharagpur](http://www.iitkgp.ac.in)
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
+<br>
+## Work Experience
+<hr/>
+**Amazon Core Machine Learning Team**, Amazon, Bangalore, June 2017 -- Aug 2017 <br>
+Applied Science Intern
 
-# Header 1
+**Machine Learning Team**, Real Image Media Tech., Chennai, March 2016 -- June 2016 <br>
+Intern
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+**Product Engineering**, eGain Communications Pvt. Ltd., Pune, 2012 -- 2014 <br>
+Software Engineer
 
-## Header 2
-
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
-
-### Header 3
-
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
-
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
-
-#### Header 4
-
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-
-##### Header 5
-
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
-
-###### Header 6
-
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
-### There's a horizontal rule below this.
-
-* * *
-
-### Here is an unordered list:
-
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
-
-### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-### Small image
-
-![Octocat](https://assets-cdn.github.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
+**Linear Algebra and its applications**, Indian Institute of Science, Bangalore, Aug 2017 -- Dec 2017 <br>
+Teaching Assistant
 
 
-### Definition lists can be used with HTML syntax.
+<br>
+## Contact
+<hr>
+<h3>Address</h3>
+<p>303, MALL Lab, CDS Department, <br>
+Indian Institute of Science, <br>
+Bangalore - 560012 <p>
 
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
-
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
-
-```
-The final element.
-```
+<h3>Email</h3>
+<p>firstname[at]iisc[dot]ac[dot]in</p>
