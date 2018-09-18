@@ -1,32 +1,6 @@
-
-title: Ashutosh Resume
-url: 'http://fossdevil.github.io'
-baseurl: '/' #change it according to your repository name
-
-
-# Enable one of these styles by removing #. Style will be applied only after restarting the build or serve.
-#style: styles
-#style: styles-2
-#style: styles-3
-#style: styles-4
-#style: styles-5
-style: styles-6
-
-
-#Profile information
-name: Ashutosh Kumar
-tagline: Research Scholar at MALL(Machine and Language Learning) Lab, IISc. Bangalore.
-pic: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
-
-#sidebar links
-email: ashutoshk2401@gmail.com, ashutosh@iisc.ac.in
-phone: +91 9158428590
-website: fossdevil.github.io #do not add http://
-linkedin: ashutosh-kumar-04a0325b
-github: fossdevil
-twitter: ashutoshk2401
-
-
-# Tracker
-analytics: UA-83979019-1
-#Update all the sections by editing the files inside _includes folder.
+title: Ashutosh Kumar
+logo: /assets/img/profile.png
+description: Third year PhD student at the Machine and Language Learning Lab, Indian Institute of Science
+show_downloads: false
+google_analytics: UA-58099446-1
+theme: jekyll-theme-minimal
