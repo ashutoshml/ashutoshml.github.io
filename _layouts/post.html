@@ -16,16 +16,16 @@
       <a href="/blog.html">Blog</a>
     </nav>
     <div class="posts shift_down">
-    <small>{{ page.date | date: "%-d %B %Y" }}</small>
-    <h1>{{ page.title }}</h1>
+      <small>{{ page.date | date: "%-d %B %Y" }}</small>
+      <h1>{{ page.title }}</h1>
 
-    <p class="view">by {{ page.author | default: site.author }}</p>
+      <p class="view">by {{ page.author | default: site.author }}</p>
 
-    {{content}}
+      {{content}}
 
-    {% if page.tags %}
-      <small>tags: <em>{{ page.tags | join: "</em> - <em>" }}</em></small>
-    {% endif %}
+      {% if page.tags %}
+        <small>tags: <em>{{ page.tags | join: "</em> - <em>" }}</em></small>
+      {% endif %}
     </div>
 
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
