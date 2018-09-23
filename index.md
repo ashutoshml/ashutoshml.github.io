@@ -8,11 +8,10 @@ layout: default
 Dept. of Computer Science & Automation ([CSA](https://www.csa.iisc.ac.in/)), Indian Institute of Science, Bangalore
 
 **Masters in Computer Science**, 2014 -- 2016 <br>
-Chennai Mathematical Institute, Chennai
+Chennai Mathematical Institute ([CMI](https://www.cmi.ac.in/)), Chennai
 
 **B.Tech**, 2008 -- 2012 <br>
-Dept. of Mechanical Engineering, [Indian Institute of Technology, Kharagpur](http://www.iitkgp.ac.in)
-
+Dept. of Mechanical Engineering, Indian Institute of Technology ([IIT](http://www.iitkgp.ac.in)) , Kharagpur
 <br>
 ## Work Experience
 <hr/>
