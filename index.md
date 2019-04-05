@@ -29,6 +29,19 @@ Teaching Assistant
 
 
 <br>
+## Publications 
+<hr/>
+1. **eCommerceGAN : A Generative Adversarial Network for E-commerce** `[`[paper](https://arxiv.org/pdf/1801.03244.pdf)`]` <br>
+    Ashutosh Kumar, Arijit Biswas, Subhajit Sanyal <br>
+    *Accepted as a Workshop paper in ICLR 2018, Vancouver, Canada*
+
+2. **Submodular Optimization-based Diverse Paraphrasing and its Effectiveness in Data Augmentation** <br>
+    Ashutosh Kumar`*`, Satwik Bhattamishra`*`, Manik Bhandari, Partha Talukdar <br>
+    *Accepted to appear as a Long paper in NAACL 2019, Minneapolis, USA* <br>
+  `*` : Equal Contributions
+
+
+<br>
 ## Contact
 <hr>
 <h3>Address</h3>
