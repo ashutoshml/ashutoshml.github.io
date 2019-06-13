@@ -31,7 +31,7 @@ Teaching Assistant
 <br>
 ## Publications
 <hr/>
-1. **Submodular Optimization-based Diverse Paraphrasing and its Effectiveness in Data Augmentation** `[`[paper](http://malllabiisc.github.io/publications/papers/DiPS_NAACL19.pdf)`]` <br>
+1. **Submodular Optimization-based Diverse Paraphrasing and its Effectiveness in Data Augmentation** `[`[paper](https://www.aclweb.org/anthology/N19-1363)`]` `[`[code](https://github.com/malllabiisc/DiPS)`]` `[`[slides]({{ site.url }}/assets/DiPS_pdf.pdf)`]` <br>
     Ashutosh Kumar`*`, Satwik Bhattamishra`*`, Manik Bhandari, Partha Talukdar <br>
     *Accepted to appear as a Long paper in NAACL 2019, Minneapolis, USA* <br>
   `*` : Equal Contributions
