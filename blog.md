@@ -1,15 +1,15 @@
 ---
-layout: default
+layout: post
 ---
-<table>
-  <tr>
+<table class='table table-hover'>
+  <tr class='thead-dark'>
     <th> Date </th>
     <th> Paper </th>
     <th> Notes  </th>
   </tr>
   {% for post in site.posts %}
   <tr>
-    <td style='font-size:12px;'>
+    <td>
       {{ post.datel }}
     </td>
     <td>

@@ -1,45 +1,60 @@
 <!doctype html>
 <html lang="{{ site.lang | default: "en-US" }}">
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Ashutosh Kumar</title>
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Ashutosh Kumar</title>
 
-    {% seo %}
-    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
-    <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
-    <link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
-  </head>
+		{% seo %}
+		<link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+		<link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
+		<link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
+	</head>
 
-  <body>
-    <nav class="navbar">
-      <a href="/index.html" style="font-size:20px; float:left;"><strong>Ashutosh</strong> Kumar</a>
-      <a href="/blog.html" style='font-size:20px;'>Blog</a>
-    </nav>
-    <div class="posts shift_down">
-      <!-- {{ page.date | date: "%-d %B %Y" }} -->
-      <h1 class='text-center'>{{ page.title }}</h1>
+	<body>
+		<div class="wrapper shift_down">
 
-      <!-- <p class="view">{{ page.author | default: site.author }}</p> -->
-      {% if page.tags %}
-        Tags: <button type="button" class="btn-dark-outline btn-sm">{{ page.tags | join: '</button>  <button type="button" class="btn-dark-outline btn-sm">' }}</button>
-      {% endif %}
+      <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+        <a href="/index.html" class='navbar-brand'><strong style='color:white;'>Ashutosh</strong> Kumar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navBlog" aria-controls="navBlog" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div id="navBlog" class="collapse navbar-collapse">
+          <ul class='navbar-nav ml-auto'>
+            <li class='nav-item'>
+              <a class="nav-link navbar-brand" href="/index.html">Home</a>
+              </li>
+            <li class='nav-item active'>
+              <a class="nav-link navbar-brand" href="/blog.html">Blog</a>
+              </li>
+            </ul>
+        </div>
+      </nav>
 
-      <hr/>
-      {{content}}
 
-    </div>
+			<!-- {{ page.date | date: "%-d %B %Y" }} -->
+			<h1 class='text-center'>{{ page.title }}</h1>
 
-    <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
-    {% if site.google_analytics %}
-      <script>
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-        ga('create', '{{ site.google_analytics }}', 'auto');
-        ga('send', 'pageview');
-      </script>
-    {% endif %}
+			<!-- <p class="view">{{ page.author | default: site.author }}</p> -->
+			{% if page.tags %}
+			Tags: <button type="button" class="btn-dark-outline btn-sm">{{ page.tags | join: '</button>  <button type="button" class="btn-dark-outline btn-sm">' }}</button>
+			{% endif %}
+
+			<hr/>
+			{{content}}
+
+		</div>
+
+		<script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+		{% if site.google_analytics %}
+		<script>
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+				(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+					m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+			ga('create', '{{ site.google_analytics }}', 'auto');
+			ga('send', 'pageview');
+		</script>
+		{% endif %}
 
