@@ -43,7 +43,7 @@
       <header>
 
         {% if site.logo %}
-        <img src="{{site.logo | relative_url}}" alt="Logo" />
+        <img src="{{site.logo | relative_url}}" style="width:90%;display:block;margin-left:auto;margin-right:auto" alt="Logo" />
         {% endif %}
         <br>
         <h2 class='text-center'><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h2>
@@ -60,6 +60,7 @@
           <a href="{{ site.github.owner_url }}"><img src="{{ site.githubimg | relative_url }}" style="width:40px; padding:10px;"  alt="Logo"></a>
           <a href="{{ site.linkedin }}"><img src="{{ site.linkedinimg | relative_url }}" style="width:40px; padding:10px;"  alt="Logo"></a>
           <a href="{{ site.quora }}"><img src="{{ site.quoraimg | relative_url }}" style="width:40px; padding:10px;"  alt="Logo"></a>
+          <a href="{{ site.twitter }}"><img src="{{ site.twitterimg | relative_url }}" style="width:40px; padding:10px;"  alt="Logo"></a>
           {% comment %} <a href="{{ site.scholar }}"><i class="ai ai-google-scholar ai-3x" style="width:40px; padding:10px;"  alt="Logo"></i></a> {% endcomment %}
           {% comment %} <a href="{{ site.scholar }}"><i class="ai ai-google-scholar-square ai-3x"  alt="Logo"></i></a> {% endcomment %}
         </p>
