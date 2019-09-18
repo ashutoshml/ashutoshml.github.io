@@ -38,7 +38,7 @@ Teaching Assistant
     <u>Ashutosh Kumar</u>&#42;, Satwik Bhattamishra&#42;, Manik Bhandari, Partha Talukdar <br>
     *Oral Presentation : Long paper in NAACL 2019, Minneapolis, USA* <br>
     &#42;<small>Equal Contributions</small><br>
-    <a class="btn-sm btn-secondary" data-toggle="collapse" href="#dipsabstract" role="button" aria-expanded="false" aria-controls="collapseExample">abstract</a> <a role='button' class='btn-info btn-sm' href='https://www.aclweb.org/anthology/N19-1363'>paper</a> <a role="button" class='btn-primary btn-sm' href='https://github.com/malllabiisc/DiPS'>code</a> <a role='button' class='btn-danger btn-sm' href='{{ site.url }}/assets/DiPS_pdf.pdf)'>slides</a> <br>
+    <a class="btn-sm btn-secondary" data-toggle="collapse" href="#dipsabstract" role="button" aria-expanded="false" aria-controls="collapseExample">abstract</a> <a role='button' class='btn-info btn-sm' href='https://www.aclweb.org/anthology/N19-1363'>paper</a> <a role="button" class='btn-primary btn-sm' href='https://github.com/malllabiisc/DiPS'>code</a> <a role='button' class='btn-danger btn-sm' href='{{ site.url }}/assets/DiPS_pdf.pdf'>slides</a> <br>
     <br>
     <div class="collapse" id="dipsabstract">
         <div class="card card-body">
