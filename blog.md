@@ -9,14 +9,14 @@ layout: default
   </tr>
   {% for post in site.posts %}
   <tr>
-    <td>
+    <td style='font-size:12px;'>
       {{ post.datel }}
     </td>
     <td>
       <a href="{{ post.link }}" target="_blank"> {{ post.title }} </a>
     </td>
     <td>
-      [<a href="{{ post.url }}">Notes</a>]
+      <a role='button' class='btn-danger btn-sm' href="{{ post.url }}">Notes</a>
     </td>
   </tr>
   {% endfor %}

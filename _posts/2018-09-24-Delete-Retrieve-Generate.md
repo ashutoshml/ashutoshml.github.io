@@ -5,6 +5,7 @@ title: 'Delete, Retrieve, Generate: A Simple Approach to Sentiment and Style Tra
 link: 'http://www.aclweb.org/anthology/N18-1169'
 datel: 24, Sept, 2018
 categories: NLP, style-transfer, sentiment-transfer, non-parallel
+tags: NLP style-transfer sentiment-transfer non-parallel
 ---
 
 The authors present a very simple way to approach the problem of attribute transfer. They show results on 2 setups and three datasets:

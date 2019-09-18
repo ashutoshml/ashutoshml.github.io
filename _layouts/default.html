@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="{{ site.lang | default: "en-US" }}">
   <head>
     <meta charset="UTF-8">
@@ -10,12 +10,15 @@
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
     <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
     <link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">,
+    <script src="{{ "/node_modules/jquery/dist/jquery.min.js" | relative_url}}"></script>
+    <script src="{{ "/node_modules/popper.js/dist/umd/popper.min.js" | relative_url}}"></script>
+    <script src="{{ "/node_modules/bootstrap/dist/js/bootstrap.min.js" | relative_url}}"></script>
   </head>
 
   <body>
     <nav class="navbar">
-      <a href="/index.html" style="float: left;"><strong>Ashutosh</strong> Kumar</a>
-      <a href="/blog.html">Blog</a>
+      <a href="/index.html" style="font-size:20px; float:left;"><strong>Ashutosh</strong> Kumar</a>
+      <a href="/blog.html" style='font-size:20px;'>Blog</a>
     </nav>
 
     <div class="wrapper shift_down" >
@@ -24,9 +27,9 @@
         {% if site.logo %}
           <img src="{{site.logo | relative_url}}" alt="Logo" />
         {% endif %}
-
-        <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
-        <h3> PhD Student </h3><h4> Machine and Language Learning Lab <br>
+        <br>
+        <h2 class='text-center'><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h2>
+        <h3 class='text-center'> PhD Student </h3><h4 style='font-size:15px; font-weight:bold;' class='text-center'> Machine and Language Learning Lab <br>
           Indian Institute of Science </h4>
         <p>I am a graduate student primarily interested in solving problems related to generation of high quality textual data. I am very fortunate to be advised by <a href="http://talukdar.net" target="_blank">Dr. Partha Talukdar<a></p>
 

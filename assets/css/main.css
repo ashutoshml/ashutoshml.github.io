@@ -38,3 +38,12 @@
     align:center;
     word-wrap:break-word;
 }
+
+body{
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+a:hover{
+    text-decoration: none;
+}

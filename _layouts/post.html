@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="{{ site.lang | default: "en-US" }}">
   <head>
     <meta charset="UTF-8">
@@ -14,16 +14,16 @@
 
   <body>
     <nav class="navbar">
-      <a href="/index.html" style="float: left;"><strong>Ashutosh</strong> Kumar</a>
-      <a href="/blog.html">Blog</a>
+      <a href="/index.html" style="font-size:20px; float:left;"><strong>Ashutosh</strong> Kumar</a>
+      <a href="/blog.html" style='font-size:20px;'>Blog</a>
     </nav>
     <div class="posts shift_down">
-      <small>{{ page.date | date: "%-d %B %Y" }}</small>
-      <h1>{{ page.title }}</h1>
+      <!-- {{ page.date | date: "%-d %B %Y" }} -->
+      <h1 class='text-center'>{{ page.title }}</h1>
 
-      <p class="view">by {{ page.author | default: site.author }}</p>
+      <!-- <p class="view">{{ page.author | default: site.author }}</p> -->
       {% if page.tags %}
-        <small>tags: <em>{{ page.tags | join: "</em> - <em>" }}</em></small>
+        Tags: <button type="button" class="btn-dark-outline btn-sm">{{ page.tags | join: '</button>  <button type="button" class="btn-dark-outline btn-sm">' }}</button>
       {% endif %}
 
       <hr/>

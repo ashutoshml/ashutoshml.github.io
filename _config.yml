@@ -13,3 +13,7 @@ show_downloads: false
 google_analytics: UA-58099446-1
 theme: jekyll-theme-minimal
 author: Ashutosh
+sass:
+  load_paths:
+    - node_modules
+exclude: []

@@ -12,6 +12,8 @@ Chennai Mathematical Institute ([CMI](https://www.cmi.ac.in/)), Chennai
 
 **B.Tech**, 2008 -- 2012 <br>
 Dept. of Mechanical Engineering, Indian Institute of Technology ([IIT](http://www.iitkgp.ac.in)) , Kharagpur
+
+
 <br>
 ## Work Experience
 <hr/>
@@ -31,14 +33,27 @@ Teaching Assistant
 <br>
 ## Publications
 <hr/>
-1. **Submodular Optimization-based Diverse Paraphrasing and its Effectiveness in Data Augmentation** `[`[paper](https://www.aclweb.org/anthology/N19-1363)`]` `[`[code](https://github.com/malllabiisc/DiPS)`]` `[`[slides]({{ site.url }}/assets/DiPS_pdf.pdf)`]` <br>
-    Ashutosh Kumar`*`, Satwik Bhattamishra`*`, Manik Bhandari, Partha Talukdar <br>
-    *Accepted to appear as a Long paper in NAACL 2019, Minneapolis, USA* <br>
-  `*` : Equal Contributions
-
-2. **eCommerceGAN : A Generative Adversarial Network for E-commerce** `[`[paper](https://arxiv.org/pdf/1801.03244.pdf)`]` <br>
-    Ashutosh Kumar, Arijit Biswas, Subhajit Sanyal <br>
-    *Accepted as a Workshop paper in ICLR 2018, Vancouver, Canada*
+1. **Submodular Optimization-based Diverse Paraphrasing and its Effectiveness in Data Augmentation** 
+    <br>
+    <u>Ashutosh Kumar</u>&#42;, Satwik Bhattamishra&#42;, Manik Bhandari, Partha Talukdar <br>
+    *Oral Presentation : Long paper in NAACL 2019, Minneapolis, USA* <br>
+    &#42;<small>Equal Contributions</small><br>
+    <a class="btn-sm btn-secondary" data-toggle="collapse" href="#dipsabstract" role="button" aria-expanded="false" aria-controls="collapseExample">abstract</a> <a role='button' class='btn-info btn-sm' href='https://www.aclweb.org/anthology/N19-1363'>paper</a> <a role="button" class='btn-primary btn-sm' href='https://github.com/malllabiisc/DiPS'>code</a> <a role='button' class='btn-danger btn-sm' href='{{ site.url }}/assets/DiPS_pdf.pdf)'>slides</a> <br>
+    <br>
+    <div class="collapse" id="dipsabstract">
+        <div class="card card-body">
+        Inducing diversity in the task of paraphrasing is an important problem in NLP with applications in data augmentation and conversational agents. Previous paraphrasing approaches have mainly focused on the issue of generating semantically similar paraphrases, while paying little attention towards diversity.  In fact, most of the methods rely solely on top-k beam search sequences to obtain a set of paraphrases. The resulting set, however, contains many structurally similar sentences. In this work, we focus on the task of obtaining highly diverse paraphrases while not compromising on paraphrasing quality. We provide a novel formulation of the problem in terms of monotone submodular function maximization, specifically targeted towards the task of paraphrasing. Additionally, we demonstrate the effectiveness of our method for data augmentation on multiple tasks such as intent classification and paraphrase recognition. In order to drive further research, we have made the source code available
+        </div>
+    </div>
+2. **eCommerceGAN : A Generative Adversarial Network for E-commerce** <br>
+<u>Ashutosh Kumar</u>, Arijit Biswas, Subhajit Sanyal <br>
+*Accepted as a Workshop paper in ICLR 2018, Vancouver, Canada*<br>
+<a class="btn-sm btn-secondary" data-toggle="collapse" href="#ecommerceabstract" role="button" aria-expanded="false" aria-controls="collapseExample">abstract</a> <a href='https://arxiv.org/pdf/1801.03244.pdf' role='button' class='btn-info btn-sm'>paper</a> <a role='button' class='btn-warning btn-sm' href='https://www.technologyreview.com/f/610016/dueling-ais-dream-up-new-online-shopping-patterns-for-amazon/'>media</a> <br> <br>
+    <div class="collapse" id="ecommerceabstract">
+        <div class="card card-body">
+        E-commerce companies such as Amazon, Alibaba and Flipkart process billions of orders every year. However, these orders represent only a small fraction of all plausible orders. Exploring the space of all plausible orders could help us better understand the relationships between the various entities in an e-commerce ecosystem, namely the customers and the products they purchase. In this paper, we propose a Generative Adversarial Network (GAN) for orders made in e-commerce websites. Once trained, the generator in the GAN could generate any number of plausible orders. Our contributions include: (a) creating a dense and low-dimensional representation of e-commerce orders, (b) train an ecommerceGAN (ecGAN) with real orders to show the feasibility of the proposed paradigm, and (c) train an ecommerce-conditional-GAN (ec2GAN) to generate the plausible orders involving a particular product. We propose several qualitative methods to evaluate ecGAN and demonstrate its effectiveness. The ec2GAN is used for various kinds of characterization of possible orders involving a product that has just been introduced into the e-commerce system. The proposed approach ec2GAN performs significantly better than the baseline in most of the scenarios.
+        </div>
+    </div>
 
 <br>
 ## Contact

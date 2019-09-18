@@ -1,0 +1,28 @@
+{
+  "name": "ashutoshml.github.io",
+  "version": "1.0.0",
+  "description": "Minimal theme for fossdevil.github.io",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashutoshml/ashutoshml.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ashutoshml/ashutoshml.github.io/issues"
+  },
+  "homepage": "https://github.com/ashutoshml/ashutoshml.github.io#readme",
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.15.0"
+  }
+}
