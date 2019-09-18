@@ -4,8 +4,7 @@ author: Ashutosh Kumar
 title: 'Does String-Based Neural MT Learn Source Syntax?'
 link: 'https://www.aclweb.org/anthology/D16-1159'
 datel: 17, Sept, 2019
-tags: [NLP, NMT, Analysis Paper]
-categories: NLP, NMT, Analysis
+tags: NLP NMT Analysis Paper
 ---
 
 ## Goals

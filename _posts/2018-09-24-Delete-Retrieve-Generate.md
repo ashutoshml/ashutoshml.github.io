@@ -4,7 +4,6 @@ author: Ashutosh Kumar
 title: 'Delete, Retrieve, Generate: A Simple Approach to Sentiment and Style Transfer'
 link: 'http://www.aclweb.org/anthology/N18-1169'
 datel: 24, Sept, 2018
-categories: NLP, style-transfer, sentiment-transfer, non-parallel
 tags: NLP style-transfer sentiment-transfer non-parallel
 ---
 
