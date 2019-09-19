@@ -1,11 +1,15 @@
 ---
 layout: post
 author: Ashutosh Kumar
+paperauthor: 'Xing Shi, Inkit Padhi, and Kevin Knight (ISI and USC)'
 title: 'Does String-Based Neural MT Learn Source Syntax?'
 link: 'https://www.aclweb.org/anthology/D16-1159'
 datel: 17, Sept, 2019
-tags: NLP NMT Analysis Paper
+tags: NLP NMT Analysis-Paper
+unique: AAAAAB
+abstract: 'We investigate whether a neural, encoderdecoder translation system learns syntactic information on the source side as a by-product of training. We propose two methods to detect whether the encoder has learned local and global source syntax. A fine-grained analysis of the syntactic structure learned by the encoder reveals which kinds of syntax are learned and which are missing.'
 ---
+
 
 ## Goals
 ---
@@ -21,4 +25,4 @@ Non-neural systems rely on a lot of information for machine translation. Apart f
 
 Neural models(Here: Vanilla seq2seq model) don't require such artillery to provide competitive translation systems. 
 
-**This paper is a step towards understanding what is going inside such models and how are the performing well.**
+**This paper is a step towards understanding what is going inside such models and how are they performing well.**
