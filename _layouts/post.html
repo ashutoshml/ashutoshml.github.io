@@ -13,10 +13,11 @@
     <script src="{{ "/node_modules/jquery/dist/jquery.min.js" | relative_url}}"></script>
     <script src="{{ "/node_modules/popper.js/dist/umd/popper.min.js" | relative_url}}"></script>
     <script src="{{ "/node_modules/bootstrap/dist/js/bootstrap.min.js" | relative_url}}"></script>
+    <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
   </head>
 
   <body>
-    <div class="wrapper shift_down">
+    <div class="blogpost shift_down">
 
       <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
         <a href="/index.html" class='navbar-brand'><strong style='color:white;'>Ashutosh</strong> Kumar</a>
@@ -54,14 +55,12 @@
           <strong>Abstract</strong> [Click to toggle]
         </div>
         <div class="collapse" id="{{ page.unique }}">
-        <div class="card card-body">
-          {{ page.abstract }}
-        </div>
+          <div class="card card-body">
+            {{ page.abstract }}
+          </div>
         </div>
       </div>
       {% endif %}
-
-      <br>
       {{content}}
 
     </div>
@@ -77,4 +76,4 @@
       ga('send', 'pageview');
     </script>
     {% endif %}
-
+  </body>
