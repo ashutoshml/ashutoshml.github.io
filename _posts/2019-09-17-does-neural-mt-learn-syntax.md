@@ -86,7 +86,7 @@ Verdict: Syntactic information is learnt in NMT but **not** so in autoencoder.
 </div>
 <div class='card-body'>
 <ol>
-<li> NMT encoder leans significant sentence-level syntactic-information. It can distinguish voice and tense of the source sentence and it knows the sentence's structure to some extent.</li>
+<li> NMT encoder learns significant sentence-level syntactic-information. It can distinguish voice and tense of the source sentence and it knows the sentence's structure to some extent.</li>
 <li> Different syntactic information is captured in different layers as can be see from Figure 3. Local features are preserved in lower layers whereas global abstract information gets stored in upper layers. Model is two layered.</li>
 <li> Units = Hidden states. While predicting POS, the gap of neural parser (E2P) on the lower layer (C0) is much smaller. Small subset of units explicitly takes charge of POS tags in the neural parse, whereas for NMT the POS information is more distributed and implicit.</li> 
 <li> No large difference between E2F and E2G</li>
