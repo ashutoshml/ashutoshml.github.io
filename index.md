@@ -33,7 +33,18 @@ Teaching Assistant
 <br>
 ## Publications
 <hr/>
-1. **Submodular Optimization-based Diverse Paraphrasing and its Effectiveness in Data Augmentation** 
+1. **Syntax-guided Controlled Generation of Paraphrases** 
+    <br>
+    <u>Ashutosh Kumar</u>, Kabir Ahuja , Raghuram Vadapalli , Partha Talukdar <br>
+    *Transactions of the Association for Computational Linguistics (TACL)* <br>
+    <a class="btn-sm btn-secondary" data-toggle="collapse" href="#sgcpabstract" role="button" aria-expanded="false" aria-controls="collapseExample">abstract</a> <a role='button' class='btn-info btn-sm' href='' disabled>paper</a> <a role="button" class='btn-primary btn-sm' href='https://github.com/malllabiisc/SGCP'>code</a> <br>
+    <br>
+    <div class="collapse" id="sgcpabstract">
+        <div class="card card-body">
+        Given a sentence (e.g., "I like mangoes") and a constraint (e.g., sentiment flip), the goal of controlled text generation is to produce a sentence that adapts the input sentence to meet the requirements of the constraint (e.g., "I hate mangoes"). Going beyond such simple constraints, recent works have started exploring the incorporation of complex syntactic-guidance as constraints in the task of controlled paraphrase generation. In these methods, syntactic-guidance is sourced from a separate exemplar sentence. However, these prior works have only utilized limited syntactic information available in the parse tree of the exemplar sentence. We address this limitation in the paper and propose Syntax Guided Controlled Paraphraser (SGCP), an end-to-end framework for syntactic paraphrase generation. We find that SGCP can generate syntax conforming sentences while not compromising on relevance. We perform extensive automated and human evaluations over multiple real-world English language datasets to demonstrate the efficacy of SGCP over state-of-the-art baselines. To drive future research, we have made SGCP’s source code available.
+        </div>
+    </div>
+2. **Submodular Optimization-based Diverse Paraphrasing and its Effectiveness in Data Augmentation** 
     <br>
     <u>Ashutosh Kumar</u>&#42;, Satwik Bhattamishra&#42;, Manik Bhandari, Partha Talukdar <br>
     *Oral Presentation : Long paper in NAACL 2019, Minneapolis, USA* <br>
@@ -45,7 +56,7 @@ Teaching Assistant
         Inducing diversity in the task of paraphrasing is an important problem in NLP with applications in data augmentation and conversational agents. Previous paraphrasing approaches have mainly focused on the issue of generating semantically similar paraphrases, while paying little attention towards diversity.  In fact, most of the methods rely solely on top-k beam search sequences to obtain a set of paraphrases. The resulting set, however, contains many structurally similar sentences. In this work, we focus on the task of obtaining highly diverse paraphrases while not compromising on paraphrasing quality. We provide a novel formulation of the problem in terms of monotone submodular function maximization, specifically targeted towards the task of paraphrasing. Additionally, we demonstrate the effectiveness of our method for data augmentation on multiple tasks such as intent classification and paraphrase recognition. In order to drive further research, we have made the source code available
         </div>
     </div>
-2. **eCommerceGAN : A Generative Adversarial Network for E-commerce** <br>
+3. **eCommerceGAN : A Generative Adversarial Network for E-commerce** <br>
 <u>Ashutosh Kumar</u>, Arijit Biswas, Subhajit Sanyal <br>
 *Accepted as a Workshop paper in ICLR 2018, Vancouver, Canada*<br>
 <a class="btn-sm btn-secondary" data-toggle="collapse" href="#ecommerceabstract" role="button" aria-expanded="false" aria-controls="collapseExample">abstract</a> <a href='https://arxiv.org/pdf/1801.03244.pdf' role='button' class='btn-info btn-sm'>paper</a> <a role='button' class='btn-warning btn-sm' href='https://www.technologyreview.com/f/610016/dueling-ais-dream-up-new-online-shopping-patterns-for-amazon/'>media</a> <br> <br>
@@ -56,6 +67,16 @@ Teaching Assistant
     </div>
 
 <br>
+<br>
+## Service
+<hr/>
+#### Reviewer: <br>
+<p>ICLR 2020, ACL 2020, EMNLP 2020</p>
+<br>
+#### Judge: <br>
+<p>Initiative for Research & Innovation in STEM (IRIS) National Fair 2020</p>
+<br>
+
 ## Contact
 <hr>
 <h3>Address</h3>
