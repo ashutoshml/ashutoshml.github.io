@@ -70,10 +70,9 @@ Teaching Assistant
 <br>
 ## Service
 <hr/>
-##### Reviewer: <br>
+##### Reviewer:
 <p>ICLR 2020, ACL 2020, EMNLP 2020</p>
-<br>
-##### Judge: <br>
+##### Judge:
 <p>Initiative for Research & Innovation in STEM (IRIS) National Fair 2020</p>
 <br>
 
