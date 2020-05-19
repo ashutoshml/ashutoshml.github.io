@@ -37,7 +37,7 @@ Teaching Assistant
     <br>
     <u>Ashutosh Kumar</u>, Kabir Ahuja, Raghuram Vadapalli, Partha Talukdar <br>
     *Transactions of the Association for Computational Linguistics (TACL) 2020* <br>
-    <a class="btn-sm btn-secondary" data-toggle="collapse" href="#sgcpabstract" role="button" aria-expanded="false" aria-controls="collapseExample">abstract</a> <a role='button' class='btn-info btn-sm disabled' href='{{ site.url }}/assets/SGCP_TACL2020.pdf'>paper</a> <a role="button" class='btn-primary btn-sm' href='https://github.com/malllabiisc/SGCP' target='_blank'>code</a> <br>
+    <a class="btn-sm btn-secondary" data-toggle="collapse" href="#sgcpabstract" role="button" aria-expanded="false" aria-controls="collapseExample">abstract</a> <a role='button' class='btn-info btn-sm disabled' href='https://arxiv.org/pdf/2005.08417.pdf' target='_blank'>paper</a> <a role="button" class='btn-primary btn-sm' href='https://github.com/malllabiisc/SGCP' target='_blank'>code</a> <br>
     <br>
     <div class="collapse" id="sgcpabstract">
         <div class="card card-body">
