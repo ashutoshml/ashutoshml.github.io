@@ -17,6 +17,12 @@ Dept. of Mechanical Engineering, Indian Institute of Technology ([IIT](http://ww
 <br>
 ## Work Experience
 <hr/>
+**Amazon Lex Team**, AWS AI, Seattle (Remote), Ongoing <br>
+Applied Scientist Intern
+
+**Linear Algebra and its applications**, Indian Institute of Science, Bangalore, Aug 2017 -- Dec 2017 <br>
+Teaching Assistant
+
 **Amazon Core Machine Learning Team**, Amazon, Bangalore, June 2017 -- Aug 2017 <br>
 Applied Science Intern
 
@@ -26,8 +32,6 @@ Intern
 **Product Engineering**, eGain Communications Pvt. Ltd., Pune, 2012 -- 2014 <br>
 Software Engineer
 
-**Linear Algebra and its applications**, Indian Institute of Science, Bangalore, Aug 2017 -- Dec 2017 <br>
-Teaching Assistant
 
 
 <br>
