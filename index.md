@@ -17,7 +17,7 @@ Dept. of Mechanical Engineering, Indian Institute of Technology ([IIT](http://ww
 <br>
 ## Work Experience
 <hr/>
-**Amazon Lex Team**, AWS AI, Seattle (Remote), Ongoing <br>
+**Amazon Lex Team**, AWS AI, Seattle (Remote), July 2020 -- Oct 2020 <br>
 Applied Scientist Intern
 
 **Linear Algebra and its applications**, Indian Institute of Science, Bangalore, Aug 2017 -- Dec 2017 <br>
@@ -42,7 +42,7 @@ Software Engineer
     <u>Ashutosh Kumar</u>, Kabir Ahuja, Raghuram Vadapalli, Partha Talukdar <br>
     *Transactions of the Association for Computational Linguistics (TACL) 2020* <br>
     *To be presented at ACL 2020* <br>
-    <a class="btn-sm btn-secondary" data-toggle="collapse" href="#sgcpabstract" role="button" aria-expanded="false" aria-controls="collapseExample">abstract</a> <a role='button' class='btn-info btn-sm disabled' href='https://arxiv.org/pdf/2005.08417.pdf' target='_blank'>paper</a> <a role="button" class='btn-primary btn-sm' href='https://github.com/malllabiisc/SGCP' target='_blank'>code</a> <br>
+    <a class="btn-sm btn-secondary" data-toggle="collapse" href="#sgcpabstract" role="button" aria-expanded="false" aria-controls="collapseExample">abstract</a> <a role='button' class='btn-info btn-sm disabled' href='https://arxiv.org/pdf/2005.08417.pdf' target='_blank'>paper</a> <a role="button" class='btn-primary btn-sm' href='https://github.com/malllabiisc/SGCP' target='_blank'>code</a> <a role='button' class='btn-danger btn-sm' href='{{ site.url }}/assets/SGCP-pdf.pdf' target='_blank'>slides</a> <br>
     <br>
     <div class="collapse" id="sgcpabstract">
         <div class="card card-body">
@@ -75,7 +75,7 @@ Software Engineer
 ## Service
 <hr/>
 ##### Reviewer:
-<p>ICLR 2020, ACL 2020, EMNLP 2020, ICLR 2021</p>
+<p>ICLR 2020, ACL 2020, EMNLP 2020, ICLR 2021, EACL 2021, NAACL 2021</p>
 ##### Judge:
 <p>Initiative for Research & Innovation in STEM (IRIS) National Fair 2020</p>
 <br>
