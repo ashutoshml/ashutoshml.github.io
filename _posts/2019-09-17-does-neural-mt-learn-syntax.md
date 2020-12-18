@@ -10,15 +10,12 @@ unique: AAAAAB
 abstract: 'We investigate whether a neural, encoderdecoder translation system learns syntactic information on the source side as a by-product of training. We propose two methods to detect whether the encoder has learned local and global source syntax. A fine-grained analysis of the syntactic structure learned by the encoder reveals which kinds of syntax are learned and which are missing.'
 ---
 
----
----
-### Goals
+<h2 style='text-align:center'> Goals </h2>
 1. To investigate if neural machine translation systems learn any syntactic features about the source during training (as a by-product)?
 2. To see what kind of syntactic information is being learnt, if any?
 3. Evaluate both global and local syntactic information that is being learnt
 
----
-### Why is this important ?
+<h2 style='text-align:center'> Why is this important ?</h2>
 Non-neural systems rely on a lot of information for machine translation. Apart from other information(wordvecs, wordtranslations), syntactic information may be provided by:
 1. Adding source syntax [Tree-to-String]
 2. Adding target syntax [String-to-Tree] 
@@ -28,8 +25,7 @@ Neural models(Here: Vanilla seq2seq model) **don't** require such artillery to p
 
 **This paper is a step towards understanding what is going inside such models and how are they performing well.**
 
----
-### A nice example
+<h2 style='text-align:center'> A nice example</h2>
 **Setup(s):**
 
 a. English-French NMT system trained on 110M tokens of bilingual data (English-side). <br>
@@ -48,10 +44,7 @@ b. English-English autoencoder system.
 Accuracy a: 92.7%  b: 82.6% <br>
 Verdict: Syntactic information is learnt in NMT but **not** so in autoencoder.
 
----
-
-### Experiments
-<p align="center">
+<h2 style='text-align:center'> Experiments</h2>
   <img align="center" src="{{ site.url }}/assets/blog-images/does-neural-mt-learn-syntax/experiment.png" alt="Image" height="400" >
 </p>
 
@@ -73,9 +66,7 @@ Verdict: Syntactic information is learnt in NMT but **not** so in autoencoder.
 1. POS : Tags for each word
 2. SPC: Smallest phrase constituent above each word (HIGHER LEVEL POS TAGS)
 
----
-
-### Results:
+<h2 style='text-align:center'> Results</h2>
 <p align="center">
   <img align="center" src="{{ site.url }}/assets/blog-images/does-neural-mt-learn-syntax/layerwise.png" alt="Image" height="500" >
 </p>

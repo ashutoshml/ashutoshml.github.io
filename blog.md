@@ -4,8 +4,8 @@ layout: post
 <table class='table table-hover'>
   <tr class='thead-dark'>
     <th> Date </th>
+    <th> Notes </th>
     <th> Paper </th>
-    <th> Notes  </th>
   </tr>
   {% for post in site.posts %}
   <tr>
@@ -13,10 +13,10 @@ layout: post
       {{ post.datel }}
     </td>
     <td>
-      <a href="{{ post.link }}" target="_blank"> {{ post.title }} </a>
+      <a href="{{ post.url }}" > {{ post.title }} </a>
     </td>
     <td>
-      <a role='button' class='btn-danger btn-sm' href="{{ post.url }}">Notes</a>
+      <a role='button' class='btn-danger btn-sm' href="{{ post.link }}" target="_blank">Paper</a>
     </td>
   </tr>
   {% endfor %}
