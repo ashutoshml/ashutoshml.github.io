@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: notes
 ---
 <table class='table table-hover'>
   <tr class='thead-dark'>
@@ -21,4 +21,3 @@ layout: post
   </tr>
   {% endfor %}
 </table>
-
