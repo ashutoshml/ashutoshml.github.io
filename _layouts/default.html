@@ -20,24 +20,30 @@
 
 	<body>
 		<div class="wrapper shift_down" >
-			<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark text-center">
-				<div class="mx-auto d-sm-flex d-block flex-sm-nowrap"> 
-					<a href="/index.html" class='navbar-brand text-center'><strong style='color:white'>Ashutosh</strong> Kumar</a> 
-					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> 
-						<span class="navbar-toggler-icon"></span> 
-					</button> 
-					<div id="navbarSupportedContent" class="collapse navbar-collapse text-center"> 
-						<ul class='navbar-nav ml-auto' id='navbaractivation'> 
-							<li class='nav-item active'> 
-								<a class="nav-link navbar-brand" href="/index.html">Home</a> 
-							</li> 
-							<li class='nav-item'> 
-								<a class="nav-link navbar-brand" href="/blog.html">Notes</a> 
-							</li> 
-						</ul> 
-					</div> 
-				</div>
-			</nav>
+			<div class='container'>
+				<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark text-center">
+					<div class="d-flex bd-highlight mb-0"> 
+						<div class="mr-auto p-2 bd-highlight">
+							<a href="/index.html" class='navbar-brand text-center'><strong style='color:white'>Ashutosh</strong> Kumar</a> 
+						</div>
+						<div class="p2 bd-highlight">
+							<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> 
+								<span class="navbar-toggler-icon"></span> 
+							</button> 
+							<div id="navbarSupportedContent" class="justify-content-end collapse navbar-collapse text-center"> 
+								<ul class='navbar-nav' id='navbaractivation'> 
+									<li class='nav-item active'> 
+										<a class="nav-link navbar-brand" href="/index.html">Home</a> 
+									</li> 
+									<li class='nav-item'> 
+										<a class="nav-link navbar-brand" href="/blog.html">Notes</a> 
+									</li> 
+								</ul> 
+							</div> 
+						</div>
+					</div>
+				</nav>
+			</div>
 
 
 			<header>
@@ -61,7 +67,6 @@
 				<p class='text-center'>
 				<a href="{{ site.github.owner_url }}" target='_blank'><img src="{{ site.githubimg | relative_url }}" style="width:40px; padding:10px;"  alt="Logo"></a>
 				<a href="{{ site.linkedin }}" target='_blank'><img src="{{ site.linkedinimg | relative_url }}" style="width:40px; padding:10px;"  alt="Logo"></a>
-				<a href="{{ site.quora }}" target='_blank'><img src="{{ site.quoraimg | relative_url }}" style="width:40px; padding:10px;"  alt="Logo"></a>
 				<a href="{{ site.twitter }}" target='_blank'><img src="{{ site.twitterimg | relative_url }}" style="width:40px; padding:10px;"  alt="Logo"></a>
 				<a href="{{ site.scholar }}" target='_blank'><img src="{{ site.scholarimg | relative_url }}" style="width:40px; padding:10px;"  alt="Logo"></a>
 				<a href="{{ site.goodreads }}" target='_blank'><img src="{{ site.goodreadsimg | relative_url }}" style="width:40px; padding:10px;"  alt="Logo"></a>
