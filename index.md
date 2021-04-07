@@ -76,7 +76,7 @@ Software Engineer
 <hr/>
 ##### Reviewer:
 <p>2020: ICLR, ACL, EMNLP <a href='https://www.aclweb.org/anthology/2020.emnlp-main.0.pdf' style="color:red;" target="_blank">[Outstanding Reviewer]</a>
-<br>2021: ICLR, EACL, NAACL, ACL-IJCNLP</p>
+<br>2021: ICLR, EACL, NAACL, ACL-IJCNLP, EMNLP, NeurIPS</p>
 ##### Judge:
 <p>Initiative for Research & Innovation in STEM (IRIS) National Fair 2020</p>
 <br>
