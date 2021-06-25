@@ -21,7 +21,7 @@
 	<body>
 		<div class="wrapper shift_down">
 			<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark text-center">
-				<div class="mx-auto d-sm-flex d-block flex-sm-nowrap"> 
+				<div class="mx-auto d-sm-flex d-block flex-sm-nowrap col-md-6"> 
 					<a href="/index.html" class='navbar-brand text-center'><strong style='color:white'>Ashutosh</strong> Kumar</a>
 					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navBlog" aria-controls="navBlog" aria-expanded="false" aria-label="Toggle navigation">
 						<span class="navbar-toggler-icon"></span>
@@ -39,6 +39,7 @@
 				</div>
 			</nav>
 
+      <div class='wrapper'>
 			<!-- {{ page.date | date: "%-d %B %Y" }} -->
 			<h1 class='text-center'>{{ page.title }}</h1>
 
@@ -88,6 +89,7 @@
 			<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 			<script id="dsq-count-scr" src="//ashutoshml-github-io.disqus.com/count.js" async></script>
 
+		</div>
 		</div>
 		<script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
 		<script src="{{ "/assets/js/customscript.js" | relative_url }}"></script>
