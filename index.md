@@ -41,7 +41,7 @@ Software Engineer
     <br>
     <u>Ashutosh Kumar</u>, Kabir Ahuja, Raghuram Vadapalli, Partha Talukdar <br>
     *Transactions of the Association for Computational Linguistics (TACL) 2020* <br>
-    *To be presented at ACL 2020* <br>
+    *Presented at ACL 2020* <br>
     <a class="btn-sm btn-secondary" data-toggle="collapse" href="#sgcpabstract" role="button" aria-expanded="false" aria-controls="collapseExample">abstract</a> <a role='button' class='btn-info btn-sm disabled' href='https://arxiv.org/pdf/2005.08417.pdf' target='_blank'>paper</a> <a role="button" class='btn-primary btn-sm' href='https://github.com/malllabiisc/SGCP' target='_blank'>code</a> <a role='button' class='btn-danger btn-sm' href='{{ site.url }}/assets/SGCP-pdf.pdf' target='_blank'>slides</a> <br>
     <br>
     <div class="collapse" id="sgcpabstract">
@@ -70,14 +70,23 @@ Software Engineer
         E-commerce companies such as Amazon, Alibaba and Flipkart process billions of orders every year. However, these orders represent only a small fraction of all plausible orders. Exploring the space of all plausible orders could help us better understand the relationships between the various entities in an e-commerce ecosystem, namely the customers and the products they purchase. In this paper, we propose a Generative Adversarial Network (GAN) for orders made in e-commerce websites. Once trained, the generator in the GAN could generate any number of plausible orders. Our contributions include: (a) creating a dense and low-dimensional representation of e-commerce orders, (b) train an ecommerceGAN (ecGAN) with real orders to show the feasibility of the proposed paradigm, and (c) train an ecommerce-conditional-GAN (ec2GAN) to generate the plausible orders involving a particular product. We propose several qualitative methods to evaluate ecGAN and demonstrate its effectiveness. The ec2GAN is used for various kinds of characterization of possible orders involving a product that has just been introduced into the e-commerce system. The proposed approach ec2GAN performs significantly better than the baseline in most of the scenarios.
         </div>
     </div>
-
+4. **NL-Augmenter: A Framework for Task-Sensitive Natural Language Augmentation** <br>
+Kaustubh D. Dhole et. al, (includes: <u> Ashutosh Kumar </u>)<br>
+*Arvix pre-print 2021*<br>
+<a class="btn-sm btn-secondary" data-toggle="collapse" href="#nlaugmenter" role="button" aria-expanded="false" aria-controls="collapseExample">abstract</a> <a role='button' class='btn-info btn-sm' href='https://arxiv.org/abs/2112.02721' target='_blank'>paper</a> <a role="button" class='btn-primary btn-sm' href='https://github.com/GEM-benchmark/NL-Augmenter' target='_blank'>code</a> <br> <br>
+    <div class="collapse" id="nlaugmenter">
+        <div class="card card-body">
+        Data augmentation is an important component in the robustness evaluation of models in natural language processing (NLP) and in enhancing the diversity of the data they are trained on. In this paper, we present NL-Augmenter, a new participatory Python-based natural language augmentation framework which supports the creation of both transformations (modifications to the data) and filters (data splits according to specific features). We describe the framework and an initial set of 117 transformations and 23 filters for a variety of natural language tasks. We demonstrate the efficacy of NL-Augmenter by using several of its transformations to analyze the robustness of popular natural language models. The infrastructure, datacards and robustness analysis results are available publicly on the NL-Augmenter repository.
+        </div>
+    </div>
 <br>
+
 ## Service
 <hr/>
 ##### Reviewer:
 <p>2020: ICLR, ACL, <strong>EMNLP</strong> <a href='https://www.aclweb.org/anthology/2020.emnlp-main.0.pdf' style="color:red;" target="_blank">[Outstanding Reviewer]</a>
 <br>2021: ICLR, EACL, NAACL, ACL-IJCNLP, EMNLP, NeurIPS
-<br>2022: ICLR</p>
+<br>2022: ICLR, ACL ARR</p>
 ##### Judge:
 <p>Initiative for Research & Innovation in STEM (IRIS) National Fair 2020</p>
 <br>
