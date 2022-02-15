@@ -1,6 +1,7 @@
 ---
 layout: single
 permalink: /
+title: ""
 author_profile: true
 excerpt: "Ashutosh About page"
 toc: true
