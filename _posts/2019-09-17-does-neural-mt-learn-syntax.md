@@ -1,98 +1,89 @@
 ---
-layout: post
 comments: true
 author: Ashutosh Kumar
 paperauthor: 'Xing Shi, Inkit Padhi, and Kevin Knight (ISI and USC)'
 title: 'Does String-Based Neural MT Learn Source Syntax?'
-link: 'https://www.aclweb.org/anthology/D16-1159'
-datel: 17 Sept, 2019
-tags: NLP NMT Analysis-Paper
-unique: AAAAAB
+last_modified_at: 17 Sept, 2019
+categories: 
+    - Notes
+tags: 
+    - NLP 
+    - NMT 
+    - Analysis-Paper
+author_profile: true
+toc: true
 abstract: 'We investigate whether a neural, encoderdecoder translation system learns syntactic information on the source side as a by-product of training. We propose two methods to detect whether the encoder has learned local and global source syntax. A fine-grained analysis of the syntactic structure learned by the encoder reveals which kinds of syntax are learned and which are missing.'
 ---
-<h4> Goals </h4>
-<p>
-<ol>
-<li> To investigate if neural machine translation systems learn any syntactic features about the source during training (as a by-product)? </li>
-<li> To see what kind of syntactic information is being learnt, if any? </li>
-<li> Evaluate both global and local syntactic information that is being learnt </li>
-</ol>
-<p>
-<br />
-<h4> Why is this important ?</h4>
-<p>
+
+## Goals 
+
+1. To investigate if neural machine translation systems learn any syntactic features about the source during training (as a by-product)? 
+2. To see what kind of syntactic information is being learnt, if any? 
+3. Evaluate both global and local syntactic information that is being learnt 
+
+## Why is this important ?
+
 Non-neural systems rely on a lot of information for machine translation. Apart from other information(wordvecs, wordtranslations), syntactic information may be provided by:
-<ol>
-<li> Adding source syntax [Tree-to-String] </li>
-<li> Adding target syntax [String-to-Tree]  </li>
-<li> Adding both syntax [String-to-Tree]  </li>
-</ol>
 
-Neural models (Here: Vanilla seq2seq model) <strong>don't</strong> require such artillery to provide competitive translation systems. 
+1. Adding source syntax [Tree-to-String]
+2. Adding target syntax [String-to-Tree]
+3. Adding both syntax [String-to-Tree]
 
-<strong>This paper is a step towards understanding what is going inside such models and how are they performing well.</strong>
-<p>
-<br />
-<h4> A nice example</h4>
-<p>
+Neural models (Here: Vanilla seq2seq model) **don't** require such artillery to provide competitive translation systems. 
 
-<strong>Setup</strong>
-<ol>
-<li> English-French NMT system trained on 110M tokens of bilingual data (English-side).</li>
-<li> English-English autoencoder system.</li>
-</ol>
+**This paper is a step towards understanding what is going inside such models and how are they performing well.**
 
-<strong>Steps</strong>
-<ol>
-<li> Take 10K separate english and label their voice (active/passive)</li>
-<li> Use trained NMT/autoencoder to convert into 10k corresponding 1000-dimension encoding vectors (Seq to <strong>vec</strong> to seq)</li>
-<li> Use 9k sentences for training a logistic regression model to predict voice</li>
-<li> 1k for testing</li>
-</ol>
+## A nice example
 
-**Observation:**
-<p align="center">
-  <img align="center" src="{{ site.url }}/assets/blog-images/does-neural-mt-learn-syntax/example.png" alt="Image" height="200" >
-</p>
-Accuracy a: 92.7%  b: 82.6% <br>
+### Setup
+
+1. English-French NMT system trained on 110M tokens of bilingual data (English-side).
+2. English-English autoencoder system.
+
+### Steps
+
+1. Take 10K separate english and label their voice (active/passive)
+2. Use trained NMT/autoencoder to convert into 10k corresponding 1000-dimension encoding vectors (Seq to **vec** to seq)
+3. Use 9k sentences for training a logistic regression model to predict voice
+4. 1k for testing
+
+## Observation
+
+![image-center]({{ site.url }}{{ site.baseurl }}/assets/blog-images/does-neural-mt-learn-syntax/example.png){: .align-center}
+
+Accuracy a: 92.7%  b: 82.6% 
+
 Verdict: Syntactic information is learnt in NMT but <strong>not</strong> so in autoencoder.
-</p>
 
-<br />
-<h4> Experiments</h4>
-  <img align="center" src="{{ site.url }}/assets/blog-images/does-neural-mt-learn-syntax/experiment.png" alt="Image" height="400" >
-</p>
+## Experiments
 
-<strong>Model:</strong> Two layered LSTM based models
-<ol>
-<li> E2E (English-to-english) <font color='red'> [LOWER BOUND MODEL] </font></li>
-<li> PE2PE (PermutedEnglish-to-Permutedenglish) <font color='red'> [LOWER BOUND MODEL] </font></li>
-<li> E2P (English-to-ParseTree) <font color='green'> [UPPER BOUND MODEL] </font></li>
-<li> E2F (English-to-French)</li>
-<li> E2G (English-to-German)</li>
-</ol>
+![image-center]({{ site.url }}{{ site.baseurl }}/assets/blog-images/does-neural-mt-learn-syntax/experiment.png){: .align-center}
 
-<em>An improvement of syntactic tree generation over the <font color='red'>lower bound models</font> indicates that the encoder learns syntactic information, whereas a decline from the <font color='green'>upper bound model</font> shows that the encoder loses certain syntactic information</em>
+**Model:** Two layered LSTM based models
 
-<br />
-<strong>Global Syntax:</strong>
-<ol>
-<li> Voice : active or passive </li>
-<li> Tense : past or non-past </li>
-<li> TSS : Top-level syntactic sequence of the constituent tree. (Only top 19. Rest are treated as others) </li>
-</ol>
+1. E2E (English-to-english) <font color='red'> [LOWER BOUND MODEL] </font>
+2. PE2PE (PermutedEnglish-to-Permutedenglish) <font color='red'> [LOWER BOUND MODEL] </font>
+3. E2P (English-to-ParseTree) <font color='green'> [UPPER BOUND MODEL] </font>
+4. E2F (English-to-French)
+5. E2G (English-to-German)
 
-<strong>Local Syntax:</strong>
-<ol>
-<li> POS : Tags for each word</li>
-<li> SPC: Smallest phrase constituent above each word (HIGHER LEVEL POS TAGS)</li>
-</ol>
 
-<br/>
-<h4> Results</h4>
-<p align="center">
-  <img align="center" src="{{ site.url }}/assets/blog-images/does-neural-mt-learn-syntax/layerwise.png" alt="Image" height="500" >
-</p>
+*An improvement of syntactic tree generation over the <font color='red'>lower bound models</font> indicates that the encoder learns syntactic information, whereas a decline from the <font color='green'>upper bound model</font> shows that the encoder loses certain syntactic information*
+
+### Global Syntax
+
+1. Voice : active or passive 
+2. Tense : past or non-past
+3. TSS : Top-level syntactic sequence of the constituent tree. (Only top 19. Rest are treated as others) 
+
+### Local Syntax
+
+1. POS : Tags for each word
+2. SPC: Smallest phrase constituent above each word (HIGHER LEVEL POS TAGS)
+
+## Results
+
+![image-center]({{ site.url }}{{ site.baseurl }}/assets/blog-images/does-neural-mt-learn-syntax/layerwise.png){: .align-center}
 
 <div class='card'>
     <div class='card-header'>
@@ -108,33 +99,18 @@ Verdict: Syntactic information is learnt in NMT but <strong>not</strong> so in a
     </div>
 </div>
 
-<br/>
-<h5>
-<strong>Extracting Syntactic Tree from Encoder</strong>
-</h5>
+### Extracting Syntactic Tree from Encoder
 
-<p align="center">
-  <img align="center" src="{{ site.url }}/assets/blog-images/does-neural-mt-learn-syntax/syntax-tree-expt.png" alt="Image" height="350" >
-</p>
+![image-center]({{ site.url }}{{ site.baseurl }}/assets/blog-images/does-neural-mt-learn-syntax/syntax-tree-expt.png){: .align-center}
 
-<strong>Evaluation Tools:</strong>
-<ol>
-<li> <a href="http://nlp.cs.nyu.edu/evalb" target="_blank">EVALB tool </a> to calculate labeled bracketing F1-score</li>
-<li> <a href="https://github.com/timtadh/zhang-shasha" target="_blank">zxx package</a> for Tree edit distance </li>
-<li> <a href="https://github.com/jkkummerfeld/berkeley-parser-analyser" target="_blank">Berkeley Parser Analyser</a> to analyse parsing error types.</li>
-</ol>
+**Evaluation Tools**
 
-<p align="center">
-  <img align="center" src="{{ site.url }}/assets/blog-images/does-neural-mt-learn-syntax/modelvsscore.png" alt="Image" height="250" >
-</p>
+1. <a href="http://nlp.cs.nyu.edu/evalb" target="_blank">EVALB tool </a> to calculate labeled bracketing F1-score
+2. <a href="https://github.com/timtadh/zhang-shasha" target="_blank">zxx package</a> for Tree edit distance
+3. <a href="https://github.com/jkkummerfeld/berkeley-parser-analyser" target="_blank">Berkeley Parser Analyser</a> to analyse parsing error types.
 
-<p align="center">
-  <img align="center" src="{{ site.url }}/assets/blog-images/does-neural-mt-learn-syntax/bracket-error.png" alt="Image" height="250" >
-</p>
+![image-center]({{ site.url }}{{ site.baseurl }}/assets/blog-images/does-neural-mt-learn-syntax/modelvsscore.png){: .align-center}
 
-<p align="center">
-  <img align="center" src="{{ site.url }}/assets/blog-images/does-neural-mt-learn-syntax/sense-confusion.png" alt="Image" height="350" >
-</p>
+![image-center]({{ site.url }}{{ site.baseurl }}/assets/blog-images/does-neural-mt-learn-syntax/bracket-error.png){: .align-center}
 
-<em> Description to be added soon </em>
-
+![image-center]({{ site.url }}{{ site.baseurl }}/assets/blog-images/does-neural-mt-learn-syntax/sense-confusion.png){: .align-center}

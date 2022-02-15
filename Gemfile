@@ -1,4 +1,2 @@
-source 'https://rubygems.org'
-gem "kramdown-parser-gfm"
-
+source "https://rubygems.org"
 gemspec
