@@ -42,10 +42,10 @@ Software Engineer
     <br>
     <small>
     <u>Ashutosh Kumar</u>, Aditya Joshi <br>
-    *Accepted as a Short Papaer in the Findings of Association for Computational Linguistics (ACL) 2022* <br>
+    *Accepted as a Short Paper in the Findings of Association for Computational Linguistics (ACL) 2022* <br>
     </small>
     [abstract](#inconsistency){: .btn .btn--warning .btn--small .tglbtn}
-    paper (coming soon){: .btn .btn--info .btn--small}
+    [paper (coming soon)](#){: .btn .btn--info .btn--small}
     [code (coming soon)](https://github.com/ashutoshml/alleviating-inconsistency){: .btn .btn--success .btn--small}
     <div class="collapse-box notice" id="inconsistency">
         While fine-tuning pre-trained models for downstream classification is the conventional paradigm in NLP, several task-specific nuances may not get captured in the resultant models. Specifically, for tasks that take two inputs and require the output to be invariant of the order of the inputs, inconsistency is often observed in the predicted label or confidence score. We propose a consistency loss function to alleviate inconsistency in symmetric classification. Our results show an improved consistency in predictions for three paraphrase detection datasets without significant drop in the accuracy  scores. Additionally, we examine the classification performance of six datasets (both symmetric and non-symmetric) to showcase the strengths and  limitations of our approach.
