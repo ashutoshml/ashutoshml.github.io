@@ -7,7 +7,7 @@ excerpt: "Ashutosh About page"
 toc: true
 ---
 
-<span style="color:red;">I am actively seeking NLP research/applied-research roles in industry. If you feel I might be a good fit for your team (or company), kindly reach out to me via <span> [email](mailto:ashutoshk2401@gmail.com)
+<!--<span style="color:red;">I am actively seeking NLP research/applied-research roles in industry. If you feel I might be a good fit for your team (or company), kindly reach out to me via <span> [email](mailto:ashutoshk2401@gmail.com)-->
 
 
 ## Education
