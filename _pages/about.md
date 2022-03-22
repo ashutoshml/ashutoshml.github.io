@@ -7,6 +7,9 @@ excerpt: "Ashutosh About page"
 toc: true
 ---
 
+<span style="color:red;">I am actively seeking NLP research/applied-research roles in industry. If you feel I might be a good fit for your team (or company), kindly reach out to me via <span> [email](mailto:ashutoshk2401@gmail.com)
+
+
 ## Education
 
 **PhD Candidate**, Machine and Language Learning Lab ([MALL Lab](http://malllabiisc.github.io/)), 2016 -- Present <br>
@@ -45,7 +48,7 @@ Software Engineer
     *Accepted as a Short Paper in the Findings of Association for Computational Linguistics (ACL) 2022* <br>
     </small>
     [abstract](#inconsistency){: .btn .btn--warning .btn--small .tglbtn}
-    [paper (coming soon)](#){: .btn .btn--info .btn--small}
+    [paper]({{ site.url }}/assets/alleviating-inconsistency.pdf){: .btn .btn--info .btn--small}
     [code (coming soon)](https://github.com/ashutoshml/alleviating-inconsistency){: .btn .btn--success .btn--small}
     <div class="collapse-box notice" id="inconsistency">
         While fine-tuning pre-trained models for downstream classification is the conventional paradigm in NLP, several task-specific nuances may not get captured in the resultant models. Specifically, for tasks that take two inputs and require the output to be invariant of the order of the inputs, inconsistency is often observed in the predicted label or confidence score. We propose a consistency loss function to alleviate inconsistency in symmetric classification. Our results show an improved consistency in predictions for three paraphrase detection datasets without significant drop in the accuracy  scores. Additionally, we examine the classification performance of six datasets (both symmetric and non-symmetric) to showcase the strengths and  limitations of our approach.
