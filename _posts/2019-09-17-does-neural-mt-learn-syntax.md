@@ -13,6 +13,7 @@ author_profile: true
 toc: true
 excerpt: This post is about an EMNLP 16' research paper on analysis of syntactic structure learned by encoders in MT systems
 ---
+
 [Paper Link](https://aclanthology.org/D16-1159.pdf){: .btn .btn--info .btn--small}
 
 <div class="notice">
