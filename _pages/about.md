@@ -24,6 +24,10 @@ Dept. of Mechanical Engineering, Indian Institute of Technology ([IIT](http://ww
 
 ## Work Experience
 
+**Amazon Search Science Team**, Amazon, Bangalore, August 2022 -- Present <br>
+Applied Scientist II
+
+
 **Amazon Lex Team**, AWS AI, Seattle (Remote), July 2020 -- Oct 2020 <br>
 Applied Scientist Intern
 
@@ -111,12 +115,24 @@ Software Engineer
         Data augmentation is an important component in the robustness evaluation of models in natural language processing (NLP) and in enhancing the diversity of the data they are trained on. In this paper, we present NL-Augmenter, a new participatory Python-based natural language augmentation framework which supports the creation of both transformations (modifications to the data) and filters (data splits according to specific features). We describe the framework and an initial set of 117 transformations and 23 filters for a variety of natural language tasks. We demonstrate the efficacy of NL-Augmenter by using several of its transformations to analyze the robustness of popular natural language models. The infrastructure, datacards and robustness analysis results are available publicly on the NL-Augmenter repository.
     </div>
 
+6. **Discovering Non-Monotonic Autoregressive Ordering for Text Generation Models using Sinkhorn Distributions** 
+    <br>
+    <small>
+    <u> Ashutosh Kumar </u><br>
+    *ICLR Blog Post 2022*<br>
+    </small>
+    [abstract](#discovering){: .btn .btn--warning .btn--small .tglbtn}
+    [blog](https://iclr-blog-track.github.io/2022/03/25/non-monotonic-autoregressive-ordering/){: .btn .btn--info .btn--small}
+     <div class="collapse-box notice" id="discovering">
+        In this post, we will be focusing on one of the lesser explored area - Non-Monotonic Autoregressive Order (NMAO) in Decoding. In particular, we will be discussing the ICLR 2021 paper “Discovering Non-monotonic Autoregressive Orderings with Variational Inference” [Li 2021], the background needed for understanding the work as well as the way-forward.
+    </div>
+
 ## Service
 
 ### Reviewer
 <p>2020: ICLR, ACL, <strong>EMNLP</strong> <a href='https://www.aclweb.org/anthology/2020.emnlp-main.0.pdf' style="color:red;" target="_blank">[Outstanding Reviewer]</a>
 <br>2021: ICLR, EACL, NAACL, ACL-IJCNLP, EMNLP, NeurIPS
-<br>2022: ICLR, ACL ARR</p>
+<br>2022: ICLR, ACL ARR, NeurIPS</p>
 
 ### Judge
 <p>Initiative for Research & Innovation in STEM (IRIS) National Fair 2020</p>
