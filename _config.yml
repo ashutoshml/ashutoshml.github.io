@@ -104,7 +104,7 @@ analytics:
 author:
   name             : "Ashutosh Kumar <br> (आशुतोष कुमार)"
   avatar           : "/assets/img/profile.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "**PhD Candidate** <br> I am a graduate student primarily interested in solving problems related to generation of high quality textual data. I am very fortunate to be advised by [Dr. Partha Talukdar](https://talukdar.net)"
+  bio              : "**PhD Candidate** <br> I am a graduate student primarily interested in solving problems related to generation of high quality textual data. I am very fortunate to be advised by [Dr. Partha Talukdar](https://parthatalukdar.github.io/)"
   location         : "India"
   email            :
   links:
