@@ -104,7 +104,7 @@ analytics:
 author:
   name             : "Ashutosh Kumar <br> (आशुतोष कुमार)"
   avatar           : "/assets/img/profile.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "**Applied Scientist II, Amazon** <br> I am currently working as an Applied Scientist at Amazon primarily interested in solving problems related to generation of high quality textual data. Previously I was a graduate student and was very fortunate to be advised by [Dr. Partha Talukdar](https://parthatalukdar.github.io/)"
+  bio              : "**Applied Scientist II, Amazon** <br> I am currently working as an Applied Scientist at Amazon in the Search Science and AI team. Previously I was a graduate student at IISc, Bangalore and was very fortunate to be advised by [Dr. Partha Talukdar](https://parthatalukdar.github.io/)"
   location         : "India"
   email            :
   links:
