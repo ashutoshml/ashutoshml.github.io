@@ -12,7 +12,7 @@ toc: true
 
 ## Education
 
-**PhD Candidate**, Machine and Language Learning Lab ([MALL Lab](http://malllabiisc.github.io/)), 2016 -- Present <br>
+**PhD Candidate**, Machine and Language Learning Lab ([MALL Lab](http://malllabiisc.github.io/)), 2016 -- 2022 (Defended April 2023) <br>
 Dept. of Computer Science & Automation ([CSA](https://www.csa.iisc.ac.in/)), Indian Institute of Science, Bangalore
 
 **Masters in Computer Science**, 2014 -- 2016 <br>
