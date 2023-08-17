@@ -44,6 +44,14 @@ Intern
 **Product Engineering**, eGain Communications Pvt. Ltd., Pune, 2012 -- 2014 <br>
 Software Engineer
 
+
+## PhD Thesis
+
+**Inducing Constraints in Paraphrase Generation and Consistency in Paraphrase Detection** <br>
+[Thesis]({{ site.url }}/assets/PhD_Thesis_Ashutosh.pdf){: .btn .btn--info .btn--small}
+[slides]({{ site.url }}/assets/Ashutosh-PhD-Thesis-presentation.pdf){: .btn .btn--danger .btn--small}
+
+
 ## Publications
 1. **Striking a Balance: Alleviating Inconsistency in Pre-trained Models for Symmetric Classification Tasks**
     <br>
@@ -53,7 +61,7 @@ Software Engineer
     </small>
     [abstract](#inconsistency){: .btn .btn--warning .btn--small .tglbtn}
     [paper]({{ site.url }}/assets/alleviating-inconsistency.pdf){: .btn .btn--info .btn--small}
-    [code (coming soon)](https://github.com/ashutoshml/alleviating-inconsistency){: .btn .btn--success .btn--small}
+    [code](https://github.com/ashutoshml/alleviating-inconsistency){: .btn .btn--success .btn--small}
     <div class="collapse-box notice" id="inconsistency">
         While fine-tuning pre-trained models for downstream classification is the conventional paradigm in NLP, often task-specific nuances may not get captured in the resultant models. Specifically, for tasks that take two inputs and require the output to be invariant of the order of the inputs, inconsistency is often observed in the predicted labels or confidence scores. We highlight this model shortcoming and apply a consistency loss function to alleviate inconsistency in symmetric classification. Our results show an improved consistency in predictions for three paraphrase detection datasets without a significant drop in the accuracy scores. We examine the classification performance of six datasets (both symmetric and non-symmetric) to showcase the strengths and limitations of our approach.
     </div>
@@ -126,6 +134,9 @@ Software Engineer
      <div class="collapse-box notice" id="discovering">
         In this post, we will be focusing on one of the lesser explored area - Non-Monotonic Autoregressive Order (NMAO) in Decoding. In particular, we will be discussing the ICLR 2021 paper “Discovering Non-monotonic Autoregressive Orderings with Variational Inference” [Li 2021], the background needed for understanding the work as well as the way-forward.
     </div>
+
+
+
 
 ## Service
 
