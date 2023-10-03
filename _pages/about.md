@@ -12,7 +12,7 @@ toc: true
 
 ## Education
 
-**PhD Candidate**, Machine and Language Learning Lab ([MALL Lab](http://malllabiisc.github.io/)), 2016 -- 2022 (Defended April 2023) <br>
+**PhD**, Machine and Language Learning Lab ([MALL Lab](http://malllabiisc.github.io/)), 2016 -- 2022 (Defended April 2023) <br>
 Dept. of Computer Science & Automation ([CSA](https://www.csa.iisc.ac.in/)), Indian Institute of Science, Bangalore
 
 **Masters in Computer Science**, 2014 -- 2016 <br>
@@ -143,7 +143,8 @@ Software Engineer
 ### Reviewer
 <p>2020: ICLR, ACL, <strong>EMNLP</strong> <a href='https://www.aclweb.org/anthology/2020.emnlp-main.0.pdf' style="color:red;" target="_blank">[Outstanding Reviewer]</a>
 <br>2021: ICLR, EACL, NAACL, ACL-IJCNLP, EMNLP, NeurIPS
-<br>2022: ICLR, ACL ARR, NeurIPS</p>
+<br>2022: ICLR, ACL ARR, NeurIPS
+<br>2023: ICLR, ACL ARR, EMNLP, NeurIPS</p>
 
 ### Judge
 <p>Initiative for Research & Innovation in STEM (IRIS) National Fair 2020</p>
@@ -152,9 +153,9 @@ Software Engineer
 ## Contact
 
 <h3>Address</h3>
-<p>303, MALL Lab, CDS Department, <br>
-Indian Institute of Science, <br>
-Bangalore - 560012 <p>
+<p>Amazon Development Center India<br>
+Bagmane Constellation Business Park,<br>
+Bangalore - 560048 <p>
 
 <h3>Email</h3>
-<p>firstname[at]iisc[dot]ac[dot]in</p>
+<p>firstname"k2401"[at]gmail[dot]com</p>
