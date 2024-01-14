@@ -145,6 +145,7 @@ Software Engineer
 <br>2021: ICLR, EACL, NAACL, ACL-IJCNLP, EMNLP, NeurIPS
 <br>2022: ICLR, ACL ARR, NeurIPS
 <br>2023: ICLR, ACL ARR, EMNLP, NeurIPS</p>
+<br>2024: ACL ARR </p>
 
 ### Judge
 <p>Initiative for Research & Innovation in STEM (IRIS) National Fair 2020</p>
