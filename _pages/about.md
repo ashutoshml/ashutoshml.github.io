@@ -159,8 +159,8 @@ Software Engineer
 <p>2020: ICLR, ACL, <strong>EMNLP</strong> <a href='https://www.aclweb.org/anthology/2020.emnlp-main.0.pdf' style="color:red;" target="_blank">[Outstanding Reviewer]</a>
 <br>2021: ICLR, EACL, NAACL, ACL-IJCNLP, EMNLP, NeurIPS
 <br>2022: ICLR, ACL ARR, NeurIPS
-<br>2023: ICLR, ACL ARR, EMNLP, NeurIPS</p>
-<br>2024: ACL ARR </p>
+<br>2023: ICLR, ACL ARR, EMNLP, NeurIPS
+<br>2024: ACL ARR
 <br>2025: ICLR, ACL ARR, NeurIPS</p>
 
 ### Judge
