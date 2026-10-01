@@ -24,8 +24,11 @@ Dept. of Mechanical Engineering, Indian Institute of Technology ([IIT](http://ww
 
 ## Work Experience
 
-**Amazon Search Science Team**, Amazon, Bangalore, August 2022 -- Present <br>
-Applied Scientist II
+**Databricks**, Bangalore (Remote), September 2026 -- Present <br>
+AI Engineer
+
+**Amazon Search Science Team**, Amazon, Bangalore, August 2022 -- September 2026 <br>
+Applied Scientist 
 
 
 **Amazon Lex Team**, AWS AI, Seattle (Remote), July 2020 -- Oct 2020 <br>
@@ -162,6 +165,7 @@ Software Engineer
 <br>2023: ICLR, ACL ARR, EMNLP, NeurIPS
 <br>2024: ACL ARR
 <br>2025: ICLR, ACL ARR, NeurIPS</p>
+<br>2026: ICLR, ACL ARR, NeurIPS</p>
 
 ### Judge
 <p>Initiative for Research & Innovation in STEM (IRIS) National Fair 2020</p>
@@ -170,8 +174,8 @@ Software Engineer
 ## Contact
 
 <h3>Address</h3>
-<p>Amazon Development Center India<br>
-Bagmane Constellation Business Park,<br>
+<p>Databricks Inc.<br>
+Bagmane Capital Tecn Park,<br>
 Bangalore - 560048 <p>
 
 <h3>Email</h3>
